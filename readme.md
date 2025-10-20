@@ -29,7 +29,7 @@ Download your prefered model from Ollama via ollama run "modelname" for example 
 
 Check that the model is working by prompting it directly in the terminal/command prompt. Exit via /bye. 
 
-![gemma_in_cmd](https://raw.githubusercontent.com/schneidero1/Self-Host-private-AI/master/images/gemma_in_cmd.PNG](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/gemma_in_cmd.png)
+![gemma_in_cmd](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/gemma_in_cmd.png)
 
 Next, make sure docker desktop is running, go to your terminal and run the following command:
 
