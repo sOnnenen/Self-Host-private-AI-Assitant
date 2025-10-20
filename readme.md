@@ -25,9 +25,11 @@ Go to https://ollama.com/ download and install Ollama.
 
 Once it is installed open the terminal/command prompt and check the installation via `ollama --version` (this should show you the version number, ollama needs to be running in the background for this to work.) 
 
-Download your prefered model from Ollama via ollama run "modelname" for example `run gemma3:1b` to install the Gemma3 model with 1 billion parameters.
+Download your prefered model from Ollama via ollama run "modelname" for example ```bash ollama run gemma3:1b ``` to install the Gemma3 model with 1 billion parameters.
 
 Check that the model is working by prompting it directly in the terminal/command prompt. Exit via /bye. 
+
+![gemma_in_cmd](https://raw.githubusercontent.com/schneidero1/Self-Host-private-AI/master/images/gemma_in_cmd.PNG](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/gemma_in_cmd.png)
 
 Next, make sure docker desktop is running, go to your terminal and run the following command:
 
