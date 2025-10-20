@@ -39,8 +39,12 @@ This will create and start a new container `-d` has the container run in the bac
 
 You can now sign up in Open WebUI via http://localhost:3000. Note that the account you create here is a local account on your computer.
 
+![open_webui](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/open_webui.png)
+
 To make this local LLM accessible from other devices (phone laptop in other networks) we use Twingate. 
 Once signed up, login to Twingate and add a remote Network and select Location `On Premise`.
+
+![add_network_twingate](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/add_network_twingate.png)
 
 Click on your Network and select `Deploy Connector` and select `Docker` for Deployment Method.
 
@@ -51,4 +55,8 @@ To do that click `create Resource` in the Network tab and put in your IP address
 Add Port Restrictions (3000) to limit access to the Port your LLM sits on.
 Click create resource and select `Everyone`.
 
+![add_resource_twingate](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/add_resource_twingate.png)
+
 Using the Twingate App you are now able to access your local LLM from any Network. 
+
+![phone_access](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/phone_access.jpeg)
