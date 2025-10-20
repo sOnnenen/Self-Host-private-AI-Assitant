@@ -46,7 +46,7 @@ You can now sign up in Open WebUI via http://localhost:3000. Note that the accou
 To make this local LLM accessible from other devices (phone laptop in other networks) we use Twingate. 
 Once signed up, login to Twingate and add a remote Network and select Location `On Premise`.
 
-![add_network_twingate](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/add_network_twingate.png)
+![add_network_twingate](https://raw.githubusercontent.com/sOnnenen/Self-Host-private-AI-Assitant/refs/heads/main/images/add_network_twingate.PNG)
 
 Click on your Network and select `Deploy Connector` and select `Docker` for Deployment Method.
 
