@@ -25,7 +25,7 @@ Go to https://ollama.com/ download and install Ollama.
 
 Once it is installed open the terminal/command prompt and check the installation via `ollama --version` (this should show you the version number, ollama needs to be running in the background for this to work.) 
 
-Download your prefered model from Ollama via ollama run "modelname" for example ```bash ollama run gemma3:1b ``` to install the Gemma3 model with 1 billion parameters.
+Download your prefered model from Ollama via ollama run "modelname" for example ` ollama run gemma3:1b ` to install the Gemma3 model with 1 billion parameters.
 
 Check that the model is working by prompting it directly in the terminal/command prompt. Exit via /bye. 
 
@@ -33,7 +33,9 @@ Check that the model is working by prompting it directly in the terminal/command
 
 Next, make sure docker desktop is running, go to your terminal and run the following command:
 
-`docker run -d -p 3000:8080 --name open-webui --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data ghcr.io/open-webui/open-webui:main`
+```bash 
+docker run -d -p 3000:8080 --name open-webui --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data ghcr.io/open-webui/open-webui:main
+```
 
 This will create and start a new container `-d` has the container run in the background `-p` maps port 3000 on the computer to 8080 in the container. `--add-host=` will allow the web-ui in the container to talk to the ollama service `-v` creates a persistent volume, so the chat history is saved. This command will also install Open WebUI if you don't have it already.
 
